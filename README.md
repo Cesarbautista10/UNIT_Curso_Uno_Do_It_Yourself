@@ -1,7 +1,6 @@
-# Introdución  al CH552
-
-Proyecto princial `git`
-[Curso_introductorio_CH552](/).
+# Introdución  al
+Proyecto principal `git`
+[](/).
 
 ## Consulta mayor información
 
