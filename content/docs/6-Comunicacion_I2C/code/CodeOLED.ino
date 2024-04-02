@@ -1,42 +1,3 @@
----
-title: 6. Comunicación I2C
-type: docs
-weight: 10
-BookToC: false
----
-
-# Comunicación I2C
----
-En la intersección de la innovación tecnológica y la creatividad visual, las pantallas OLED desempeñan un papel central. 
-
-
-<p align="center">
-    <img src="\docs\6-Comunicacion_I2C\images\oled.png" alt="frecuecy" style="width: 50%;">
-</p>
-
-## Bibliotecas 
----
-> Adafruit_GFX.h
-
-<p align="center">
-    <img src="\docs\6-Comunicacion_I2C\images\gigadisplay.png" alt="frecuecy" style="width: 30%;">
-</p>
-
-> Adafruit_SSD1306.h 
-<p align="center">
-    <img src="\docs\6-Comunicacion_I2C\images\ssd16.png" alt="frecuecy" style="width: 30%;">
-</p>
-
-## Código
-<div style="text-align: right;">
-    <a href="/docs/6-Comunicacion_I2C/code/CodeOLED.ino" download="CodeOLED.ino">
-        <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
-            Descarga CodeOLED.ino 
-        </button>
-    </a>
-</div>
-
-```c
 
 #include <SPI.h>
 #include <Wire.h>
@@ -156,16 +117,3 @@ void setup()
 
 void loop() {
 }
-```
-
-
-
-
-<div style="text-align: right">
-    <h1><a href="/docs/7-comunicacion_neopixels/">Siguiente</a></h>
-</div>
-
-
-
----
-⌨️ con ❤️ por [UNIT-Electronics](https://github.com/UNIT-Electronics) 😊

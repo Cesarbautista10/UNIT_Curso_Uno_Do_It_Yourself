@@ -54,7 +54,7 @@ Además, conscientes de la importancia de la soldadura y la comprensión de la e
 
 El ensamblaje de la tarjeta es de nivel básico. Consulta y descarga el manual de armado y programación completo en el siguiente <a href="https://github.com/UNIT-Electronics/UNIT-Uno-Do-It-Yourself/blob/main/docs/manual.pdf" target="_blank">enlace.</a>
 
- circuito impreso:
+ Circuito impreso:
 
 <p align="center">
   <img src="/docs/1-Descripcion-general/images/PCB.png" alt="salida led" width="60%">
@@ -83,6 +83,12 @@ Material compilado por el equipo de UNIT Electronics
 ```
 - <a href="https://uelectronics.com/" target="_blank">UNIT Electronics</a>
 - <a href="https://github.com/fede-hidalgo" target="_blank">Federico Hidalgo</a>
+
+
+<div style="text-align: right">
+    <h1><a href="/docs/2-salidas_digitales/">Siguiente</a></h>
+</div>
+
 
 
 ⌨️ con ❤️ por [UNIT-Electronics](https://github.com/UNIT-Electronics) 😊

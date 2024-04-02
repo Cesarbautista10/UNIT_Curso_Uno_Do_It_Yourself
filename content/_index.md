@@ -27,14 +27,13 @@ Diseñada tomando como referencia el Arduino UNO, esta tarjeta admite el uso de 
 ------------
 ## Contenido
 - [Introducción](/)
-- [Descripción general](/)
-- [Salidas Digitales](/)
-- [Entradas Digitales](/)
-- [Entrada Analógica (ADC)](/)
-- [Control de PWM](/)
-- [Comunicación I2C](/)
-- [Control de NEOPIXELS](/)
-- [Comunicación serial](/)
+- [Descripción general](/docs/1-descripcion-general/)
+- [Salidas Digitales](/docs/2-salidas_digitales/)
+- [Entradas Digitales](/docs/3-entradas_digitales/)
+- [Entrada Analógica (ADC)](/docs/4-entradas_analogicas/)
+- [Control de PWM](/docs/5-controlador_pwm/)
+- [Comunicación I2C](/docs/6-comunicacion_i2c/)
+- [Control de NEOPIXELS](/docs/7-comunicacion_neopixels/)
 
 
 

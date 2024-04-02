@@ -1,40 +1,3 @@
----
-title: 7. Comunicación con neopixels
-type: docs
-weight: 11
-BookToC: false
----
-
-# Comunicación con neopixels 
-
-
-Los Neopixels utilizan el protocolo WS2812, que implica enviar una serie de bits que representan los valores de color para cada LED en la cadena. Se debe generar la secuencia de bits de acuerdo con las especificaciones del protocolo.
-
-
-  <p align="center">
-    <img src="\docs\7-Comunicacion_neopixels\images\neopixel.png" style="width: 80%;" alt="neopixel">
-</p>
-
-## Bibliotecas 
----
-> Adafruit_NeoPixel.h
-
-<p align="center">
-    <img src="\docs\7-Comunicacion_neopixels\images\ADA.png" alt="frecuecy" style="width: 30%;">
-</p>
-
-
-## Código
-
-<div style="text-align: right;">
-    <a href="/docs/7-Comunicacion_neopixels/code/OutputNeopixels.ino" download="OutputNeopixels.ino">
-        <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
-            Descarga OutputNeopixels.ino 
-        </button>
-    </a>
-</div>
-
-```c
 // NeoPixel Ring simple sketch (c) 2013 Shae Erisson
 // Released under the GPLv3 license to match the rest of the
 // Adafruit NeoPixel library
@@ -85,15 +48,3 @@ void loop() {
     delay(DELAYVAL); // Pause before next pass through loop
   }
 }
-
-```
-
-
-
-<!-- <div style="text-align: right">
-    <h1><a href="/docs/12-comunicacion_serial/">Siguiente</a></h>
-</div> -->
-
-
-⌨️ con ❤️ por [UNIT-Electronics](https://github.com/UNIT-Electronics) 😊
- 

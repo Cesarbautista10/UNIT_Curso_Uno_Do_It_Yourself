@@ -4,7 +4,6 @@ Proyecto principal `git`
 
 ## Consulta mayor información
 
-
 ## Documentación de producción
 
 La documentación esta basada en [Hugo](https://gohugo.io/).

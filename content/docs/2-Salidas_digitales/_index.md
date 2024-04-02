@@ -24,9 +24,9 @@ El desarrollo de este ejemplo se enfoca en el control de pines de salida digital
 ---
 
 <div style="text-align: right;">
-    <a href="/docs/4-Salidas_digitales/code/blink.ino" download="blink.ino">
+    <a href="/docs/2-Salidas_digitales/code/OutPutBlink.ino" download="OutPutBlink.ino">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
-            Descarga BLINK.ino
+            Descarga OutPutBlink.ino
         </button>
     </a>
 </div>
@@ -35,31 +35,38 @@ El desarrollo de este ejemplo se enfoca en el control de pines de salida digital
 ```c
 
 #47849C
-#define LED_BUILTIN 33
+// Definimos los pines para los LEDs
+int ledPin1 = 13;
+int ledPin2 = 12;
+int ledPin3 = 11;
 
-// the setup function runs once when you press reset or power the board
 void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED_BUILTIN, OUTPUT);
+  // Configuramos los pines como salida
+  pinMode(ledPin1, OUTPUT);
+  pinMode(ledPin2, OUTPUT);
+  pinMode(ledPin3, OUTPUT);
 }
 
-// the loop function runs over and over again forever
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-                      // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-                     // wait for a second
+  // Encendemos y apagamos los LEDs en secuencia
+  digitalWrite(ledPin1, HIGH);
+  delay(500); // Esperamos medio segundo
+  digitalWrite(ledPin1, LOW);
+
+  digitalWrite(ledPin2, HIGH);
+  delay(500);
+  digitalWrite(ledPin2, LOW);
+
+  digitalWrite(ledPin3, HIGH);
+  delay(500);
+  digitalWrite(ledPin3, LOW);
 }
-
-<p align="center">
-    <img src="/docs/4-Salidas_digitales/images/config.png" alt="LED">
-</p>
-
-<div style="text-align: right">
-    <h1><a href="/docs/5-salidas_conmutacion_rapida/">Siguiente</a></h>
-</div>
 
 ```
 
+
+<div style="text-align: right">
+    <h1><a href="/docs/3-entradas_digitales/">Siguiente</a></h>
+</div>
 ---
 ⌨️ con ❤️ por [UNIT-Electronics](https://github.com/UNIT-Electronics) 😊
