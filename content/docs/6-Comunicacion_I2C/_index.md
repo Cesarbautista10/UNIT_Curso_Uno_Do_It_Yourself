@@ -11,7 +11,7 @@ En la intersección de la innovación tecnológica y la creatividad visual, las 
 
 
 <p align="center">
-    <img src="\docs\6-Comunicacion_I2C\images\oled.png" alt="frecuecy" style="width: 50%;">
+    <img src="/docs/6-Comunicacion_I2C/images/oled.png" alt="oled" style="width: 50%;">
 </p>
 
 ## Bibliotecas 
@@ -19,12 +19,12 @@ En la intersección de la innovación tecnológica y la creatividad visual, las 
 > Adafruit_GFX.h
 
 <p align="center">
-    <img src="\docs\6-Comunicacion_I2C\images\gigadisplay.png" alt="frecuecy" style="width: 30%;">
+    <img src="/docs/6-Comunicacion_I2C/images/gigadisplay.png" alt="gigadisplay" style="width: 30%;">
 </p>
 
 > Adafruit_SSD1306.h 
 <p align="center">
-    <img src="\docs\6-Comunicacion_I2C\images\ssd16.png" alt="frecuecy" style="width: 30%;">
+    <img src="/docs/6-Comunicacion_I2C/images/ssd16.png" alt="ssd16" style="width: 30%;">
 </p>
 
 ## Código

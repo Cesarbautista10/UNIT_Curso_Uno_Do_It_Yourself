@@ -12,7 +12,7 @@ Los Neopixels utilizan el protocolo WS2812, que implica enviar una serie de bits
 
 
   <p align="center">
-    <img src="\docs\7-Comunicacion_neopixels\images\neopixel.png" style="width: 80%;" alt="neopixel">
+    <img src="/docs/7-Comunicacion_neopixels/images/neopixel.png" style="width: 80%;" alt="neopixel">
 </p>
 
 ## Bibliotecas 
@@ -20,7 +20,7 @@ Los Neopixels utilizan el protocolo WS2812, que implica enviar una serie de bits
 > Adafruit_NeoPixel.h
 
 <p align="center">
-    <img src="\docs\7-Comunicacion_neopixels\images\ADA.png" alt="frecuecy" style="width: 30%;">
+    <img src="/docs/7-Comunicacion_neopixels/images/ADA.png" alt="ADA" style="width: 30%;">
 </p>
 
 
